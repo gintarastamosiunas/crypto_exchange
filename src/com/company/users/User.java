@@ -15,14 +15,6 @@ public class User {
         this.accountNumber = "LT" + (random.nextInt(99999 - 10000) + 10000);
     }
 
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
     public double getBalance() {
         return balance;
     }
